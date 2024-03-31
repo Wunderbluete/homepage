@@ -1,8 +1,15 @@
+
 import './css/style.css'
 
 import { Inter } from 'next/font/google'
 
 import Header from '@/components/ui/header'
+
+
+import AgeVerificationPopup from '@/components/ageverificationpopup'
+
+
+
 
 const inter = Inter({
   subsets: ['latin'],
@@ -22,12 +29,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <AgeVerificationPopup />
       <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
-          <Header />
+          
+          <Header />         
           {children}
         </div>
       </body>
     </html>
   )
 }
+

@@ -1,0 +1,42 @@
+/* components/AgeVerificationPopup.module.css */
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Leichter Dunkel-Effekt für den Hintergrund */
+    backdrop-filter: blur(5px); /* Unscharfer Effekt für den Hintergrund */
+}
+
+.popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10000;
+    max-width: 400px;
+    text-align: center;
+}
+
+.popup button {
+    margin: 10px; /* Fügt Abstand um die Buttons hinzu */
+    padding: 10px 20px; /* Vergrößert den Button und macht ihn bequemer zu klicken */
+    border: none; /* Entfernt den Standardrahmen */
+    border-radius: 5px; /* Fügt abgerundete Ecken hinzu */
+    background-color: #007bff; /* Blaue Hintergrundfarbe für den Button */
+    color: white; /* Weiße Textfarbe für den Button */
+    text-transform: uppercase; /* Macht den Text im Button großgeschrieben */
+    font-weight: bold; /* Macht den Text im Button fett */
+    cursor: pointer; /* Ändert den Cursor auf einen Zeiger, wenn er über dem Button ist */
+    transition: background-color 0.3s; /* Fügt einen Übergangseffekt hinzu, wenn der Button gehovered wird */
+}
+
+.popup button:hover {
+    background-color: #0056b3; /* Dunklere Blaue Farbe beim Hover */
+}
