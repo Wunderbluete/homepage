@@ -1,4 +1,5 @@
 {
   "/(default)/page": "app/(default)/page.js",
-  "/(default)/about/page": "app/(default)/about/page.js"
+  "/(default)/about/page": "app/(default)/about/page.js",
+  "/(auth)/signin/page": "app/(auth)/signin/page.js"
 }

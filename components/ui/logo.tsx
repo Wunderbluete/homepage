@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Logo() {
   return (
     <Link href="/" className="block" aria-label="Cruip">
-                <Image src={LogoImg} width={128} height={32} alt="" />
+                <Image src={LogoImg} width={160} height={32} alt="" />
               
     </Link>
   )

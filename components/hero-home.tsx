@@ -69,9 +69,8 @@ export default function HeroHome() {
         <path className="stroke-current text-blue-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
       </g>
     </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Riesiges Lernangebot</h4>
-  <p className="text-gray-600 text-center">Du willst lieber selbst Anbauen? Oder du willst im Cannabis Club auch mal selbst mithelfen? Wir geben dir alle Informationen die du fürs Cannabisgrowing brauchst - Egal ob Anfänger oder schon lange dabei </p>
+  </svg>  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Große Blüten-Datenbank</h4>
+  <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 </div>
 
 {/* 3rd item */}
@@ -103,9 +102,8 @@ export default function HeroHome() {
         <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
       </g>
     </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Austausch</h4>
-  <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </svg>  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Riesiges Lernangebot</h4>
+  <p className="text-gray-600 text-center">Du willst lieber selbst Anbauen? Oder du willst im Cannabis Club auch mal selbst mithelfen? Wir geben dir alle Informationen die du fürs Cannabisgrowing brauchst - Egal ob Anfänger oder schon lange dabei </p>
 </div>
 
 {/* 5th item */}
@@ -121,9 +119,8 @@ export default function HeroHome() {
       </g>
     </g>
   </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Große Blüten-Datenbank</h4>
-  <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-</div>
+  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Austausch</h4>
+  <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
 
 {/* 6th item */}
 <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
