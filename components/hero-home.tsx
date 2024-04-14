@@ -70,7 +70,7 @@ export default function HeroHome() {
       </g>
     </g>
   </svg>  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Große Blüten-Datenbank</h4>
-  <p className="text-gray-600 text-center">Wir möchten unser geballtes Wissen weitergeben und natürlich auch, dass du dich austauschen kannst. Deshalb haben wir eine umfangreiche Datenbank entwickelt, die es dir ermöglicht, verschiedene Cannabis-Sorten zu entdecken und mehr über ihre spezifischen Eigenschaften zu erfahren.</p>
+  <p className="text-gray-600 text-center">Wir möchten unser geballtes Wissen weitergeben! Deshalb haben wir eine umfangreiche Datenbank entwickelt, die es dir ermöglicht, verschiedene Cannabis-Sorten zu entdecken und mehr über ihre spezifischen Eigenschaften zu erfahren.</p>
 </div>
 
 {/* 3rd item */}
