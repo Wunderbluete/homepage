@@ -62,8 +62,7 @@ export default function HeroHome() {
     </g>
 </svg>
   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Keine regelmäßigen Kosten</h4>
-  <p className="text-gray-600 text-center">Zahle nur, wenn du auch wirklich verbrauchst! Reserviere deine bevorzugten Cannabis-Sorten, bezahle digital und hole sie bequem in Potsdam ab – ganz ohne unflexible Cannabis-Abos, die dich zu hohen Konsummengen zwingen.
-.</p>
+  <p className="text-gray-600 text-center">Zahle nur, wenn du auch wirklich verbrauchst! Reserviere deine bevorzugten Cannabis-Sorten, bezahle digital und hole sie bequem in Potsdam ab – ganz ohne unflexible Cannabis-Abos, die dich zu hohen Konsummengen zwingen.</p>
 </div>
 
 {/* 2nd item */}
