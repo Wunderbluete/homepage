@@ -29,121 +29,67 @@ export default function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Wir sind deine <br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400">Cannabis-Community</span></h1>
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Wir sind dein<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400">unkomplizierter Cannabis-Club</span></h1>
             <div className="max-w-7xl mx-auto">
-            {/* <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"><b>Das bekommst du bei uns:</b><br></br>
-              - Werde Mitglied in einen offiziellen Cannabis Club* (Erteilung der behördlichen Genehmigungen vorausgesetzt)<br></br>
-- Riesiger Wissensspeicher über Eigenanbau und einer Vielzahl an Cannabis-Sorten<br></br>
-- Guidelines um unkompliziert an medizinisches Cannabis zu kommen<br></br>
-- Tausche dich mit Gleichgesinnten aus und nutzt unsere praktischen Online-Tools
+        {/*      <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"><b>Das bekommst du bei uns:</b><br></br>
+              - keine monatliche Gebühren oder Mindestmengen<br></br>
+- alles digital<br></br>
+- Mitwirkung auch digital möglich
               <br></br><b><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400"></span></b>
-  </p>*/}
+  
    {/* Items */}<br></br>
-   <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3 items-start md:max-w-none lg:max-w-none">
+   <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-2 items-start md:max-w-none lg:max-w-none">
 
 {/* 1st item */}
 <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
-  <svg className="w-16 h-16 p-1 -mt-1 mb-2 " viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-      <g strokeWidth="2">
-        <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-        <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-        <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-        <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />  
-      </g>
+<svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 310.75 310.75" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="footer-logo">
+        <stop stopColor="#4FD1C5" offset="0%" />
+        <stop stopColor="#81E6D9" offset="25.871%" />
+        <stop stopColor="#338CF5" offset="100%" />
+      </radialGradient>
+    </defs>    
+    <rect width="310.75" height="310.75" rx="155.375" fill="url(#footer-logo)" />
+    <g strokeWidth="1" transform="translate(45 59) scale(0.6)">
+      <path className="stroke-current bg-white" fill="#FFF" d="M183.815,265.726c-32.444,0-60.868-21.837-76.306-54.325h102.101v-45.023H95.643c-0.284-3.642-0.437-7.29-0.437-11.016
+	    c0-3.691,0.152-7.384,0.437-10.977h113.969V99.353H107.51c15.438-32.485,43.861-54.315,76.306-54.315
+	    c31.01,0,60.21,20.759,76.2,54.152l40.626-19.418C277.091,30.554,232.329,0,183.815,0c-36.47,0-70.51,16.665-95.851,46.966
+	    C75.219,62.209,65.481,79.995,59.079,99.353H10.108v45.031h40.39c-0.217,3.617-0.329,7.311-0.329,10.977
+	    c0,3.704,0.112,7.351,0.329,11.016h-40.39V211.4h48.971c6.402,19.356,16.14,37.122,28.886,52.351
+	    c25.341,30.303,59.381,46.999,95.851,46.999c48.515,0,93.275-30.55,116.826-79.767l-40.626-19.454
+	    C244.025,244.965,214.825,265.726,183.815,265.726z"/>
     </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Offizieller Cannabis Club</h4>
-  <p className="text-gray-600 text-center">Wenn du dich hier registriert, hast du die Möglichkeit, nach Erteilung aller behördlichen Genehmigungen, dein Cannabis aus unserer offiziellen Anbauvereinigung (nach §11 KCanG) zu erhalten. Welche Blüten wir anbauen erfährst du weiter unten.</p>
+</svg>
+  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Keine regelmäßigen Kosten</h4>
+  <p className="text-gray-600 text-center">Zahle nur, wenn du auch wirklich verbrauchst! Reserviere deine bevorzugten Cannabis-Sorten, bezahle digital und hole sie bequem in Potsdam ab – ganz ohne unflexible Cannabis-Abos, die dich zu hohen Konsummengen zwingen.
+.</p>
 </div>
 
 {/* 2nd item */}
 <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
-  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-      <g strokeWidth="2" transform="translate(19.429 20.571)">
-        <circle className="stroke-current text-white" strokeLinecap="square" cx="12.571" cy="12.571" r="1.143" />
-        <path className="stroke-current text-white" d="M19.153 23.267c3.59-2.213 5.99-6.169 5.99-10.696C25.143 5.63 19.514 0 12.57 0 5.63 0 0 5.629 0 12.571c0 4.527 2.4 8.483 5.99 10.696" />
-        <path className="stroke-current text-blue-300" d="M16.161 18.406a6.848 6.848 0 003.268-5.835 6.857 6.857 0 00-6.858-6.857 6.857 6.857 0 00-6.857 6.857 6.848 6.848 0 003.268 5.835" />
-      </g>
+<svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 310.75 310.75" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="footer-logo">
+        <stop stopColor="#4FD1C5" offset="0%" />
+        <stop stopColor="#81E6D9" offset="25.871%" />
+        <stop stopColor="#338CF5" offset="100%" />
+      </radialGradient>
+    </defs>    
+    <rect width="310.75" height="310.75" rx="155.375" fill="url(#footer-logo)" />
+    <g strokeWidth="1" transform="scale(8) translate(7 9)">
+      <path fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
     </g>
-  </svg>  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Große Blüten-Datenbank</h4>
-  <p className="text-gray-600 text-center">Wir möchten unser geballtes Wissen weitergeben! Deshalb haben wir eine umfangreiche Datenbank entwickelt, die es dir ermöglicht, verschiedene Cannabis-Sorten zu entdecken und mehr über ihre spezifischen Eigenschaften zu erfahren.</p>
+</svg>
+ <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Alles digital und entspannt </h4>
+  <p className="text-gray-600 text-center">Einfach digital Mitbestimmen im Club! Beteilige dich bequem von zuhause aus am Geschehen unseres Clubs. Willst du Anbauen mithelfen oder auch nur mehr lernen? Unsere Kurse machen dich auch vom heimischen Sofa aus zum Cannabis-Experten.</p>
 </div>
 
-{/* 3rd item */}
-<div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
-  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-      <g strokeWidth="2">
-        <path className="stroke-current text-blue-300" d="M34.743 29.714L36.57 32 27.43 43.429H24M24 20.571h3.429l1.828 2.286" />
-        <path className="stroke-current text-white" strokeLinecap="square" d="M34.743 41.143l1.828 2.286H40M40 20.571h-3.429L27.43 32l1.828 2.286" />
-        <path className="stroke-current text-blue-300" d="M36.571 32H40" />
-        <path className="stroke-current text-white" d="M24 32h3.429" strokeLinecap="square" />
-      </g>
-    </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Riesiges Lernangebot</h4>
-  <p className="text-gray-600 text-center">Du willst lieber selbst Anbauen? Oder du willst im Cannabis Club auch mal selbst mithelfen? Wir geben dir alle Informationen die du fürs Cannabisgrowing brauchst - Egal ob Anfänger oder schon lange dabei </p>
-
-</div>
-
-{/* 4th item */}
-<div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
-  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-      <g strokeWidth="2">
-        <path className="stroke-current text-white" d="M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714" />
-        <path className="stroke-current text-white" d="M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286" />
-        <path className="stroke-current text-white" d="M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286" />
-        <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
-      </g>
-    </g>
-  </svg>  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Cannabis auf Rezept</h4>
-  <p className="text-gray-600 text-center">Seit dem 01.04. ist durch das neue Medizinal-Cannabisgesetz der Zugang zu Cannabis als Medizin massiv erleichtert. Finde bei uns alles, was du zur medizinischen Wirkung von Cannabis wissen musst und wie es dir helfen kann. Wir geben dir Empfehlungen für die besten Apotheken und Ärzte. </p>
-</div>
-
-{/* 5th item */}
-<div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
-  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-      <g strokeWidth="2">
-        <path className="stroke-current text-white" d="M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714" />
-        <path className="stroke-current text-white" d="M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286" />
-        <path className="stroke-current text-white" d="M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286" />
-        <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
-      </g>
-    </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Austausch</h4>
-  <p className="text-gray-600 text-center"> Auf unserer Plattform kannst du wirklich total einfach mit anderen Personen interagieren, um dich digital auszutauschen. Des Weiteren planen wir auch Präsenz-Events als Community, bei denen du Gleichgesinnte treffen und Erfahrungen aus erster Hand austauschen kannst.</p></div>
-
-{/* 6th item */}
-<div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
-  <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-    <g fill="none" fillRule="evenodd">
-      <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
-      <g strokeWidth="2">
-        <path className="stroke-current text-white" d="M32 37.714A5.714 5.714 0 0037.714 32a5.714 5.714 0 005.715 5.714" />
-        <path className="stroke-current text-white" d="M32 37.714a5.714 5.714 0 015.714 5.715 5.714 5.714 0 015.715-5.715M20.571 26.286a5.714 5.714 0 005.715-5.715A5.714 5.714 0 0032 26.286" />
-        <path className="stroke-current text-white" d="M20.571 26.286A5.714 5.714 0 0126.286 32 5.714 5.714 0 0132 26.286" />
-        <path className="stroke-current text-blue-300" d="M21.714 40h4.572M24 37.714v4.572M37.714 24h4.572M40 21.714v4.572" strokeLinecap="square" />
-      </g>
-    </g>
-  </svg>
-  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Digital mitbestimmen</h4>
-  <p className="text-gray-600 text-center">Wir sind ein gemeinnütziger Verein! Alles digital bzgl. wie es mit der Wunderblüte weitergehen soll. Deine Meinung ist uns wichtig! Nehme an unseren digitalen Abstimmungen teil und hilf uns, die Zukunft unseres Clubs zu gestalten.</p>
-</div>
 
 </div><br></br><br></br>
               <div className="max-w-xs  sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0" href="#0">Jetzt dem Wunderblüte-Club beitreten!</a>
+                  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0 text-xl" href="#0">Jetzt dem Wunderblüte-Club beitreten!</a>
                 </div>
                
               </div>
