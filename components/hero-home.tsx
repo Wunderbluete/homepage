@@ -62,7 +62,7 @@ export default function HeroHome() {
     </g>
 </svg>
   <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Keine regelmäßigen Kosten</h4>
-  <p className="text-gray-600 text-center">Zahle nur, wenn du auch wirklich verbrauchst! Reserviere deine bevorzugten Cannabis-Sorten, bezahle digital und hole sie bequem in Potsdam ab – ganz ohne unflexible Cannabis-Abos, die dich zu hohen Konsummengen zwingen.</p>
+  <p className="text-gray-600 text-center"><b>Zahle nur, wenn du auch wirklich verbrauchst!</b> Reserviere deine bevorzugten Cannabis-Sorten, bezahle digital und hole sie bequem in Potsdam ab – ganz <b>ohne unflexible Cannabis-Abos</b>, die dich zu der Abnahme von hohen Konsummengen zwingen.</p>
 </div>
 
 {/* 2nd item */}
@@ -81,14 +81,14 @@ export default function HeroHome() {
     </g>
 </svg>
  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Alles digital und entspannt </h4>
-  <p className="text-gray-600 text-center">Einfach digital mitbestimmen im Club! Beteilige dich bequem von zuhause aus am Geschehen unseres Clubs. Willst du  beim Anbauen mithelfen oder auch nur mehr lernen? Unsere Kurse machen dich auch vom heimischen Sofa aus zum Cannabis-Experten.</p>
+  <p className="text-gray-600 text-center"><b>Einfach digital mitbestimmen</b> im Club! Beteilige dich bequem von zuhause aus am Geschehen unseres Clubs. Du willst beim Anbauen mithelfen oder auch nur mehr lernen? Unsere <b>Kurse machen dich auch vom heimischen Sofa aus zum Cannabis-Experten.</b></p>
 </div>
 
 
 </div><br></br><br></br><br></br>
               <div className="max-w-xl  sm:max-w-none sm:flex sm:justify-center sm:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                <center>  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0 text-3xl" href="#0">Jetzt dem Wunderblüte-Club beitreten!</a> </center>
+                <center>  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0 text-3xl" href="#0">Jetzt dem Wunderblüte-Verein beitreten!</a> </center>
                 </div>
                
               </div>
