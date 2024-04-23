@@ -29,7 +29,7 @@ export default function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Wir sind dein<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400">unkomplizierter Cannabis-Club</span></h1>
+            <h1 className="text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Wir sind dein<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400">entspannter<br></br> Cannabis-Club </span></h1>
             <div className="max-w-7xl mx-auto">
         {/*      <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"><b>Das bekommst du bei uns:</b><br></br>
               - keine monatliche Gebühren oder Mindestmengen<br></br>
@@ -80,7 +80,7 @@ export default function HeroHome() {
       <path fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
     </g>
 </svg>
- <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Alles digital und entspannt </h4>
+ <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Alles digital und unkompliziert </h4>
   <p className="text-gray-600 text-center"><b>Einfach digital mitbestimmen</b> im Club! Beteilige dich bequem von zuhause aus am Geschehen unseres Clubs. Du willst beim Anbauen mithelfen oder auch nur mehr lernen? Unsere <b>Kurse machen dich auch vom heimischen Sofa aus zum Cannabis-Experten.</b></p>
 </div>
 
