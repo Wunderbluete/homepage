@@ -82,7 +82,7 @@ export default function HeroHome() {
     </g>
 </svg>
  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Alles digital und entspannt </h4>
-  <p className="text-gray-600 text-center">Einfach digital Mitbestimmen im Club! Beteilige dich bequem von zuhause aus am Geschehen unseres Clubs. Willst du Anbauen mithelfen oder auch nur mehr lernen? Unsere Kurse machen dich auch vom heimischen Sofa aus zum Cannabis-Experten.</p>
+  <p className="text-gray-600 text-center">Einfach digital Mitbestimmen im Club! Beteilige dich bequem von zuhause aus am Geschehen unseres Clubs. Willst du  beim Anbauen mithelfen oder auch nur mehr lernen? Unsere Kurse machen dich auch vom heimischen Sofa aus zum Cannabis-Experten.</p>
 </div>
 
 
