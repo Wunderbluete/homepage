@@ -104,6 +104,8 @@ export default function HeroHome() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080} /> */}
+          <div className="flex justify-center"><a href="https://www.provenexpert.com/wunderbluete-e-v/?utm_source=Widget&utm_medium=Widget&utm_campaign=Widget" title="Kundenbewertungen &amp; Erfahrungen zu Wunderblüte e.V.. Mehr Infos anzeigen." target="_blank" rel="noopener noreferrer">
+  <img src="https://images.provenexpert.com/15/63/9b507d2870c3fcb86a601788afd0/widget_recommendation_465_0.png?t=1713903052161" alt="Kundenbewertungen &amp; Erfahrungen zu Wunderblüte e.V. Mehr Infos anzeigen."  /></a></div>
 
         </div>
 
