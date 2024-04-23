@@ -29,7 +29,7 @@ export default function HeroHome() {
 
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Wir sind dein<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400">unkomplizierter Cannabis-Club</span></h1>
+            <h1 className="text-3xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Wir sind dein<br></br><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400">unkomplizierter Cannabis-Club</span></h1>
             <div className="max-w-7xl mx-auto">
         {/*      <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150"><b>Das bekommst du bei uns:</b><br></br>
               - keine monatliche Gebühren oder Mindestmengen<br></br>

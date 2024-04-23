@@ -2819,6 +2819,9 @@ html {
 .text-xs {
   font-size: 0.75rem;
 }
+.text-2xl {
+  font-size: 1.5rem;
+}
 .font-bold {
   font-weight: 700;
 }
