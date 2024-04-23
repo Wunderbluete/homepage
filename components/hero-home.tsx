@@ -38,7 +38,7 @@ export default function HeroHome() {
               <br></br><b><span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-blue-400"></span></b>
   
    {/* Items */}<br></br>
-   <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-2 items-start md:max-w-none lg:max-w-none">
+   <div className="max-w-sm mx-auto grid gap-2 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-none lg:max-w-none">
 
 {/* 1st item */}
 <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
@@ -87,9 +87,9 @@ export default function HeroHome() {
 
 
 </div><br></br><br></br>
-              <div className="max-w-xs  sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
+              <div className="max-w-xl  sm:max-w-none sm:flex sm:justify-center sm:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0 text-xl" href="#0">Jetzt dem Wunderblüte-Club beitreten!</a>
+                <center>  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0 text-xl" href="#0">Jetzt dem Wunderblüte-Club beitreten!</a> </center>
                 </div>
                
               </div>
