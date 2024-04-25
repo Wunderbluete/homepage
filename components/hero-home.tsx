@@ -88,7 +88,7 @@ export default function HeroHome() {
 </div><br></br><br></br><br></br>
               <div className="max-w-xl  sm:max-w-none sm:flex sm:justify-center sm:items-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                <center>  <a className="btn text-white bg-green-600 hover:bg-green-700 w-full mb-8 sm:w-auto sm:mb-0 text-3xl" href="#0">Jetzt dem Wunderblüte-Verein beitreten!</a> </center>
+                <center>  <a className="btn text-white bg-green-600 hover:bg-green-900 w-full mb-8 sm:w-auto sm:mb-0 text-3xl" href="#0"><u><b>Jetzt dem Wunderblüte-Verein beitreten!</b></u></a> </center>
                 </div>
                
               </div>
