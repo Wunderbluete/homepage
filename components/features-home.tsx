@@ -35,7 +35,7 @@ export default function FeaturesHome() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Das alles bieten wir dir</h1>
+            <h1 className="h2 mb-4">Das ist unser Plan</h1>
             <p className="text-xl text-gray-600">Mit dem Inkrafttreten des Cannabisgesetzes beginnt eine neue Ära! <br></br>Neben der Abgabe von Cannabis in unseren lizenzierten Verein, kannst du auch von unseren geballten Wissen profitieren u....</p>
           </div>
 
