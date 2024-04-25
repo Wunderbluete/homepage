@@ -11,7 +11,7 @@ export default function FeaturesWorld() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Unser Standort: Potsdam und Wutike</h1>
+            <h1 className="h2 mb-4">Unser Standort: Berlin und Brandenburg</h1>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
@@ -65,7 +65,7 @@ export default function FeaturesWorld() {
                   <path d="M258 251.333c111.333-40.237 141-75.282 89-105.136M136 103.364c66.667 4.543 104.667 32.45 114 83.72" stroke="url(#world-ill-f)" strokeWidth="2" strokeDasharray="2" />
                 </g>
               </svg>
-              {/* Dynamic dots */}
+              {/* Dynamic dots 
               <svg className="absolute max-w-full" width="48" height="48" viewBox="0 0 48 48" style={{ width: '12%', top: '45%', left: '50%' }} xmlns="http://www.w3.org/2000/svg">
                 <g className="fill-current text-blue-600">
                   <circle className="pulse pulse-mini pulse-1" cx="24" cy="24" r="8" />
@@ -79,26 +79,8 @@ export default function FeaturesWorld() {
                   <circle className="pulse pulse-mini pulse-2" cx="24" cy="24" r="8" />
                   <circle cx="24" cy="24" r="8" />
                 </g>
-              </svg>
-              {/* Avatars */}
-              <Image className="absolute max-w-full transform animate-float" src={PlanetAvatar01} width={261} height={105} alt="Planet avatar 01" style={{ width: '65.25%', top: '-3%', right: '-27%' }} />
-              <Image className="absolute max-w-full transform animate-float animation-delay-1000" src={PlanetAvatar02} width={355} height={173} alt="Planet avatar 02" style={{ width: '88.7%', bottom: '-20%', right: '-18%' }} />
-              {/* Black icon */}
-              <svg className="absolute top-0 max-w-full w-20 h-auto rounded-full shadow-xl" viewBox="0 0 80 80" style={{ width: '20%', left: '6%' }} xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-gray-800" cx="40" cy="40" r="40" />
-                <path className="stroke-current text-white" d="M30.19 41.221c7.074 3.299 12.957-4.7 20.03-1.401l1.769.824-1.419-3.883M43.988 50.877l3.887-1.41-1.769-.824c-2.19-1.021-3.475-2.651-4.42-4.512M38.724 36.91c-.944-1.86-2.23-3.49-4.42-4.512" strokeLinecap="square" strokeWidth="2" />
-              </svg>
-              {/* Blue icon */}
-              <svg className="absolute max-w-full w-16 h-auto rounded-full shadow-xl" viewBox="0 0 64 64" style={{ width: '16%', top: '32%', left: '-27%' }} xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-blue-600" cx="32" cy="32" r="32" />
-                <path className="stroke-current text-white" d="M20.733 31.416l18.127-8.452M43.039 31.926L24.913 40.38" strokeWidth="2" fill="none" />
-                <path className="stroke-current text-white" strokeLinecap="square" d="M32.238 20.595l6.622 2.369-2.442 6.594M31.534 42.747l-6.621-2.368 2.442-6.595" strokeWidth="2" fill="none" />
-              </svg>
-              {/* White icon */}
-              <svg className="absolute max-w-full w-16 h-auto rounded-full shadow-xl" viewBox="0 0 64 64" style={{ width: '16%', top: '55%', right: '-16%' }} xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-gray-100" fill="#FBFBFB" cx="32" cy="32" r="32" />
-                <path className="fill-current text-gray-700" d="M37.11 32.44l-1.69 4.646-8.458-3.078.676-1.859-4.773 1.42 2.744 4.156.677-1.858 9.396 3.42a.994.994 0 001.278-.587l2.03-5.576-1.88-.684zM27.037 30.878l1.691-4.646 8.457 3.078-.676 1.858 4.773-1.42-2.744-4.155-.676 1.858-9.397-3.42a.994.994 0 00-1.278.587l-2.03 5.576 1.88.684z" />
-              </svg>
+              </svg>*/}
+          
             </div>
           </div>
 
