@@ -12,12 +12,12 @@ export default function Cta() {
               {/* CTA content */}
               <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left">
                 <h3 className="h3 text-white mb-2">Folge uns auch auf Social-Media</h3>
-                <p className="text-white text-lg opacity-75">We have a generous free tier available to get you started right away.</p>
+                <p className="text-white text-lg opacity-75">Duis aute irure dolor in reprehenderit in voluptate velit esse  excepteur sint occaecat cupidatat.</p>
               </div>
 
               {/* CTA button */}
               <div>
-                <a className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white" href="#0">Get started for free</a>
+                <a className="btn text-blue-600 bg-gradient-to-r from-blue-100 to-white" href="#linktree">Zu unseren Profilen</a>
              
               </div>
 

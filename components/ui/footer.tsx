@@ -13,34 +13,29 @@ export default function Footer() {
             <div className="mb-2">
               <Logo />
             </div>
-            <div className="text-sm text-gray-600">
-              <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
-            </div>
+            
           </div>
 
           {/* 2th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          <div className="sm:col-span-3 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Über unseren Verein</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Impressum</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Satzung vom Verein</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Company values</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Präventionskonzept</a>
               </li>
               <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Pricing</a>
-              </li>
-              <li className="mb-2">
-                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Datenschutz</a>
               </li>
             </ul>
           </div>
 
-          {/* 5th block */}
+          {/* 5th block 
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
             <h6 className="text-gray-800 font-medium mb-2">Subscribe</h6>
             <p className="text-sm text-gray-600 mb-4">Get the latest news and articles to your inbox every month.</p>
@@ -57,12 +52,11 @@ export default function Footer() {
                       </svg>
                     </button>
                   </div>
-                  {/* Success message */}
-                  {/* <p className="mt-2 text-green-600 text-sm">Thanks for subscribing!</p> */}
+                
                 </div>
               </div>
             </form>
-          </div>
+          </div>*/}
 
         </div>
 
