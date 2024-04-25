@@ -16,7 +16,7 @@ export default function Home() {
       <Hero />
       <Features />
       <FeaturesWorld />
-      <FeaturesBlocks />
+      <FeaturesBlocks /><br></br>
       <Cta />
     </>
   )
