@@ -5,6 +5,7 @@ import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import TopImage from '@/public/images/features-top-image.png'
 import FeaturesBg01 from '@/public/images/features-home-bg-01.png'
+import FeaturesBg02 from '@/public/images/features-home-bg-02.png'
 import FeaturesElement01 from '@/public/images/features-home-element-01.png'
 import FeaturesElement02 from '@/public/images/features-home-element-02.png'
 import FeaturesElement03 from '@/public/images/features-home-element-03.png'
@@ -106,10 +107,7 @@ export default function FeaturesHome() {
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width={500} height={375} alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width={500} height={147} alt="Element 01" style={{ top: '22%' }} />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width={500} height={158} alt="Element 02" style={{ top: '39%' }} />
-                      <Image className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width={500} height={167} alt="Element 03" style={{ top: '77%' }} />
-                    </div>
+                      </div>
                   </Transition>
                   {/* Item 2 */}
                   <Transition
@@ -125,32 +123,10 @@ export default function FeaturesHome() {
                     unmount={false}                  
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width={500} height={375} alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width={500} height={167} alt="Element 03" style={{ top: '18%' }} />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width={500} height={158} alt="Element 02" style={{ top: '40%' }} />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width={500} height={147} alt="Element 01" style={{ top: '79%' }} />
-                    </div>
+                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg02} width={500} height={375} alt="Features bg2" />
+    </div>
                   </Transition>
-                  {/* Item 3 */}
-                  <Transition
-                    show={tab === 3}
-                    className="w-full"
-                    enter="transition ease-in-out duration-700 transform order-first"
-                    enterFrom="opacity-0 translate-y-16"
-                    enterTo="opacity-100 translate-y-0"
-                    leave="transition ease-in-out duration-300 transform absolute"
-                    leaveFrom="opacity-100 translate-y-0"
-                    leaveTo="opacity-0 -translate-y-16"
-                    beforeEnter={() => heightFix()}
-                    unmount={false}                  
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg01} width={500} height={375} alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement01} width={500} height={147} alt="Element 01" style={{ top: '22%' }} />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float animation-delay-500" src={FeaturesElement02} width={500} height={158} alt="Element 02" style={{ top: '39%' }} />
-                      <Image className="md:max-w-none absolute w-full left-0 bottom-0 transform animate-float animation-delay-1000" src={FeaturesElement03} width={500} height={167} alt="Element 03" style={{ top: '77%' }} />
-                    </div>
-                  </Transition>
+               
                 </div>
               </div>
             </div>
