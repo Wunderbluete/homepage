@@ -9,7 +9,7 @@ export default function AboutIntro() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4">Das ist der Wunderblüte e.V.</h1>
+            <h1 className="h1 mb-4">Das ist unsere Anbaufläche</h1>
             <p className="text-xl text-gray-600">
               We have transformed product development, making it faster, simpler... better! That's why in just three years we now help more developers build projects than anyone else.
             </p>

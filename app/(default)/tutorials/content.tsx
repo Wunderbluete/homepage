@@ -23,7 +23,7 @@ export default function TutorialsContent() {
 
           {/* Page header */}
           <div className="max-w-3xl pb-12 md:pb-20 text-center md:text-left">
-            <h1 className="h1">Tutorials & guides for using Simple with any project</h1>
+            <h1 className="h1">Das planen wir anzubauen</h1>
           </div>
 
           {/* Section tags */}

@@ -38,15 +38,15 @@ export default function Header() {
             {/* Desktop menu links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link href="/pricing" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blüten-Datenbank</Link>
-              </li>
-              <li>
                 <Link href="/about" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Über den Verein</Link>
               </li>
               <li>
-                <Link href="/tutorials" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
+                <Link href="/about2" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
                   Unsere Anbaufläche
                 </Link>
+              </li>
+              <li>
+                <Link href="/tutorials" className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blüten-Datenbank</Link>
               </li>
               {/* 1st level: hover */}
               <Dropdown title="Weiteres">
