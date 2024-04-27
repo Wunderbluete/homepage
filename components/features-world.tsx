@@ -11,7 +11,7 @@ export default function FeaturesWorld() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-8">
-            <h1 className="h2 mb-4">Unsere Heimat: Berlin und Brandenburg</h1>
+            <h1 className="h2 mb-4">Anbau auf dem Land - Weitergabe in der Stadt</h1>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
@@ -33,7 +33,7 @@ export default function FeaturesWorld() {
 
                   <div className="max-w-xl  sm:max-w-none sm:flex" data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
-                  <br></br>  <a className="btn text-white bg-blue-600 hover:bg-blue-900 w-full text-2xl" href="#0"><b>Mehr über unsere Standorte erfahren</b></a> 
+                  <br></br>  <a className="btn text-white bg-blue-600 hover:bg-blue-900 w-full text-2xl" href="/about2"><b>Mehr über unsere Standorte erfahren</b></a> 
                     </div>
                   </div>
 

@@ -135,7 +135,7 @@ export default function FeaturesHome() {
           </div>            <div className="flex flex-col items-center text-center">
           <div className="max-w-xl  sm:max-w-none sm:flex " data-aos="zoom-y-out" data-aos-delay="300">
                     <div>
-                  <br></br>  <a className="btn text-white bg-blue-600 hover:bg-blue-900 w-full text-2xl" href="#0"><b>Mehr über den Verein erfahren</b></a> 
+                  <br></br>  <a className="btn text-white bg-blue-600 hover:bg-blue-900 w-full text-2xl" href="/about"><b>Mehr über den Verein erfahren</b></a> 
                     </div>
                   </div></div>       
         </div><br></br><hr></hr>

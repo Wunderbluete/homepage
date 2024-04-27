@@ -18,7 +18,6 @@ export default function About() {
       <Story />
       <Stats />
       <Team />
-      <Career />
       <Process />
       <Cta />
     </>

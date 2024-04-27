@@ -11,7 +11,7 @@ export default function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Hier noch ein kleines FAQ</h2>
+            <h2 className="h2 mb-4">Du hast noch Fragen?</h2>
             <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
           </div>
 
@@ -21,42 +21,42 @@ export default function FeaturesBlocks() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
            
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Das ist eine Frage?</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">Warum gibt es bei euch kein fixen Mitgliedsbeitrag?</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl ">
              
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Das ist eine Frage?</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">Nimmt ihr nur maximal 500 Mitglieder auf?</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
             
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Das ist eine Frage?</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">Wie setzt ihr die Mitwirkungspflicht aus §17 Abs. 2 KCanG um?</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
             {/* 4th item */}
             <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
               
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Das ist eine Frage?</h4>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">Kann man bei euch auch Samen bekommen?</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
 
                       {/* 5rd item */}
                       <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
             
-            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Das ist eine Frage?</h4>
+            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">Was werden die voraussichtlichen Preise bei euch sein?</h4>
             <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
 
           {/* 6th item */}
           <div className="relative flex flex-col items-center p-4 bg-white rounded shadow-xl">
             
-            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Das ist eine Frage?</h4>
+            <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">Du hast noch weitere Fragen oder willst uns noch näher kennenlernen?</h4>
             <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
 
